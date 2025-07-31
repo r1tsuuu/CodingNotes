@@ -1,0 +1,35 @@
+# 📅 July 31, 2025
+
+## 🧠 What did I work on today?
+- Reviewed Object-Oriented Programming (OOP) concepts
+- Learned how to define classes and use constructors
+- Practiced creating attributes and methods inside a class
+- Installed and used the `prettytable` package
+- Started Day 18 on GUI with Turtle (intro only)
+
+## 📘 What did I learn?
+- Currently working on the 100 days of code by Angela Yu!!
+### Day 16: Object-Oriented Programming (OOP)
+- OOP is a way to manage complex code by modeling real-world entities as objects.
+- Examples:
+  - Self-Driving Car → modules like Camera, Steering, Fuel
+  - Restaurant → roles like Waiter, Chef, Cleaner
+- OOP lets you act like a "manager" who delegates tasks to objects.
+
+### How OOP Helps
+- Encourages reusable, scalable, and organized code.
+- Helps break big programs into logical, manageable parts.
+
+### How to Use OOP
+- Objects have **attributes** (what they have) and **methods** (what they do).
+- Example: A virtual waiter might have:
+  - `is_holding_plate = True`
+  - `tables_responsible = [4, 5, 6]`
+  - `def take_order(table, order)`
+  - `def take_payment(amount)`
+
+### Constructing Objects
+- Use a class as a blueprint to create objects.
+- Example:  
+  ```python
+  car = CarBlueprint()
