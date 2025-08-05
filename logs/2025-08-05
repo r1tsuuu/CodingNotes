@@ -1,0 +1,26 @@
+# 📅 2025-07-31
+
+## 🧠 What did I work on today?
+
+- Worked on days 19-20 of 100 days of code
+
+## 📘 What did I learn?
+
+- An important step in creating coding projects is to break the task down into simpler, doable mini-tasks.
+- Learned how to iterate **backwards** in a `for` loop by setting `-1` as the third argument. I learned this through a code example from ChatGPT:
+
+  ```python
+  for index in range(len(snake_body) - 1, 0, -1):
+
+  ```
+
+- Learned how to get the index of a for loop that is iterating through a list instead of a range, check example code below:
+  ```python
+  for index, square in enumerate(list_of_turtles):
+  ```
+
+## 🚧 Any blockers?
+
+- I tried to make the snake game by myself, and I really struggled with the control logic — specifically, how to move the snake as one piece without it breaking apart, since the snake is comprised of multiple Turtle instances.
+
+- I worked on it for a while but ultimately had to ask ChatGPT for help. The correct logic was to start from the tail and move each segment to the position of the segment in front of it, stopping at the square before the head. Then, the head sets its heading based on the current direction and moves forward.
