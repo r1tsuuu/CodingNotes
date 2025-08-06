@@ -1,0 +1,26 @@
+# 📅 2025-08-06
+
+## 🧠 What did I work on today?
+
+- Finished day 22-24, worked on day 25.
+
+## 📘 What did I learn?
+
+- Worked on the capstone project with only the specifications, got to finish it by myself!
+- Also learned how to read and edit a file so we can have saved data. Basically, you open a file, do what you need to do with it (check documentation of the file library), then close it to not waste memory.
+- When getting a file to main.py get the relative path relative to main.py.
+- Opening a file in write("w") mode if it does not exist will automatically create the file for you.
+
+- split() – splits a string based on the argument provided. For example, split("\n") splits at each newline. If no argument is given, it splits by whitespace.
+- .replace("old", "new") – replaces all occurrences of "old" with "new" in a string.
+- file.read() – returns the entire file content as a single string.
+- file.readlines() – returns a list where each element is a line from the file.
+
+- Use the csv library for reading and editing csv files, or use the pandas lib which most python developers prefer to use.
+- The pandas lib has a lot of functionalities, make sure to look into the documentation whenever I need to do something with pandas first.
+
+## 🚧 Any blockers?
+
+- Found it difficult to determine the borders and tweaking with numbers so the ball bounces perfectly along the borders and the paddles, eventually did not get a perfect configuration but it's passable.
+- I had difficulties as well in planning how I will create the capstone project, I felt like I was just creating random subtasks lacking structure on what should I actually prioritize.
+- Of course, I had difficulty listening to the videos and coding today as I was bored and distracted, will improve on this later on with consistency on my routine.
